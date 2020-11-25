@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color:#000;
+}
+h1{
+	font-size: 37px;
+	line-height: 1.4em;
+	color:#fff;
+}
+h2{
+	font-size: 30px;
+	color: #201b2d;
+}
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: rgba(78,192,254,1);
+	background: -moz-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	color: #fff;	
+	padding-bottom: 70px;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.head{
+	width: 560px;
+}
+.big{
+	font-size: 59px;
+	line-height: 1.35em;
+}
+.dream{
+	margin-top:80px;
+	width: 555px;
+}
+.planet{
+	width: 615px;
+	height: 615px;
+}
+.text{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.75em;
+	width: 400px;
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	text-decoration: none;
+	background: #ffd429;
+	color: #2e2a1b;
+	padding: 20px 0;
+	width: 220px;
+	display: block;
+	text-align:  center;	
+	text-decoration: none;
+	transition: all 0.5s ease;
+	margin-top: 40px;
+}
+.wait{
+	 color:#201b2d;
+}
+.wait h2{
+	margin-top: 104px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 68px;
+
+}
+.wait h3{
+	margin-top: 22px;
+	color:#201b2d;
+}
+.wait p{
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:400;
+	line-height: 1.5em;
+}
+.wrapper-future{
+	justify-content:space-between; 
+    text-align: center;
+    margin-bottom: 122px;
+    align-items: flex-end;
+}
+.time {
+	width: 290px;	
+	margin-top: 5px;
+}
+.travel  {
+	width: 263px;
+}
+.values{
+	width: 300px;
+}
+.forms{
+	width: 345px;
+	margin: 0 auto;
+}
+.form{
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 107px;
+}
+
+.form h2{
+	margin-bottom: 55px;
+	text-align: center;
+}
+.input{
+	color:#9f9ea2;
+	padding: 13px 23px;
+	width: 345px;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	opacity: 0.7;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	margin-left: 0;
+	box-sizing: border-box;
+	border: 1px solid #bbb;	 
+}
+.form button{
+	margin: 0 auto;
+	border: none;
+	width:  345px;
+}
+.footer{
+	padding-top: 61px;
+	background: #164d7a;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 61px;
+}
+.footer p{
+	margin:0;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+	.dream{
+		margin-bottom: 70px;
+	}
+	.planet{
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.wrapper{
+        display: flex;
+		flex-direction: column;
+	}
+	.wrapper-future{
+
+		align-items: center;
+	}
+	.time{
+		width: auto;
+		margin-bottom: 30px;
+	}
+	.travel{
+		width: auto;
+		margin-bottom: 30px;
+	}
+	.values{
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+}
+@media screen and (max-width:992px){
+	.container{
+		width: 720px;
+	}
+   
+	.planet{
+		max-width: 640px; 
+		width: 100%;
+		margin: 0 auto;
+		
+	}
+	.dream{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	
+	}
+@media screen and (max-width:768px){
+	.container{
+		width: 540px;
+	}
+	.dream{
+		margin-bottom: 80px;
+	}
+	
+}
+@media screen and (max-width:576px){
+	.container{
+		width:90%;
+	}
+	.wrapper{
+		width:90%; 
+		margin: 0 auto;
+	}
+	.dream{
+		margin-bottom: 0px;
+	}
+	
+	.btn{
+		margin-bottom: 80px;
+	}
+	
+	.head{
+		width: 90%;
+	} 
+	.text{
+	width: 90%;
+    }
+  
+	.input{
+		width: 250px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.form button{
+       width: 250px;
+		margin: 0;
+	}
+	.forms{
+		width: 250px;
+	}
+	
+
+}
